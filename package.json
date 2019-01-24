@@ -1,0 +1,25 @@
+{
+  "name": "asynchronousdevelopmentpresentation",
+  "version": "1.0.0",
+  "description": "A presentation for the January knowledge sharing session (Ascend FS).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node webserver/index.js",
+    "demo1": "node Demo1/index.js",
+    "demo2": "cd demo2;webpack-dev-server --mode development",
+    "demo3": "cd demo3;webpack-dev-server --mode development"
+  },
+  "author": "Geraint Anderson",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "country-json": "^1.0.7",
+    "express": "^4.16.4",
+    "rxjs": "^6.3.3",
+    "webpack": "^4.29.0",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.1"
+  }
+}
